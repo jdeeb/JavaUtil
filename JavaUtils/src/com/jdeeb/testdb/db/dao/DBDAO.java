@@ -7,7 +7,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
 import com.jdeeb.testdb.db.entities.IEntity;
-
+/**
+ * 
+ * @author JDeeb
+ *
+ */
 public class DBDAO<T extends IEntity> {
 	
 	private EntityManager em;
